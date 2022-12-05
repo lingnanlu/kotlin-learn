@@ -16,6 +16,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("io.javalin:javalin:5.2.0")
     implementation("org.slf4j:slf4j-simple:2.0.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 }
 
 tasks.test {
